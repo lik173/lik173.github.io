@@ -1,9 +1,18 @@
 @echo off 
 title OS
+
 cd bin
 echo Command Line OS
 :main
 set /p cmd=">"
+set b=%cmd:~0,3%
+if %b%==pkg goto pkgnw
+:pkgnw
+set p=%cmd:~4,50%
+echo Package %p% will be installed
+pkg https://lik173.github.io/pkg/%p%.exe
+goto cmd
+
 if %cmd%==exit exit
 if %cmd%==nano nano
 if %cmd%==list goto list
@@ -21,9 +30,9 @@ goto main
 :list
 echo list - Displays this menu
 echo exit - Exit
-echo pkg - Download packages
+echo pkg [pkg name] - Download packages
 echo app - Starting app window 
-echo nano - Nano editor (pkg--^>nano)
+echo nano - Nano editor (pkg nano--^>nano)
 goto main
 :apps
 cd ..
