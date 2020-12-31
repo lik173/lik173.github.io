@@ -13,15 +13,18 @@ if %errorlevel%==2 goto up
 if %errorlevel%==3 exit
 goto Loop
 :up
-cd ..
 cls
 set /p up=Update? It can harm your files!S[y/n]
 if %up%==y goto startingup
 if %up%==n exit
 goto up
 :startingup
-del OS.bat && bin\pkg lik173.github.io/pkg/update/OS.bat
-del Install.bat && bin\pkg lik173.github.io/pkg/update/Install.bat
+cd ..
+del OS.bat && pkg lik173.github.io/pkg/update/OS.bat
+del Install.bat && pkg lik173.github.io/pkg/update/Install.bat
+del Apps.bat && pkg lik173.github.io/pkg/update/Apps.bat
+del temp.bat
+echo del VPackage.bat && pkg lik173.github.io/pkg/update/VPackage.bat >> temp.bat
 start temp.bat
 exit
 :pkg
