@@ -1,0 +1,19 @@
+Help file: repair
+.
+Repairing file(s) in cmdOS
+.
+	-How to get access to repair window?
+	-Easy. Just type 'repair' in cmdOS or start 
+	repair file in folder with cmdOS
+.
+Whats it does?	
+.	
+	This window can repair your kernel!
+	Just open this window and select 1.KERNEL
+	then select 1.REPAIR and start cmdOS.
+	If you has blue screen about KERNEL_BROKEN
+	repair must help
+.
+.
+.
+To view next howto type 'q' and select next number

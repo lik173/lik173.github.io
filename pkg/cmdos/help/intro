@@ -1,0 +1,14 @@
+Help file: intro
+.
+Introducing in cmdOS
+.
+	In cmdOS you have just line with input ability.	
+	In this line you can input commands to use cmdOS.	
+	If you type 'help' or 'list' this commands outputs
+	all commands (may not all).
+	Also cmdOS have color settings to manage background 
+	and text color
+.
+.
+.
+To view next howto type 'q' and select next number

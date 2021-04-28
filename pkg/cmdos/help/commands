@@ -1,0 +1,30 @@
+Help file: commands
+.
+Commands in cmdOS
+.
+	cmdOS has commands. You can view all commands by
+	typing 'list' or 'help'
+.
+ Lets view standart commands
+.
+	clear - This command cleaning your command history 
+	(cmdOS screen)
+.
+	list,help - Prints all commands
+.
+	exit - Exit from cmdOS
+.
+	reboot - Reopening session
+.
+	howto - Opens howto program
+.
+	repair - Opens window where you can choose repair 
+	file(s)
+.
+	ver - Displays version of cmdOS
+.
+	changes - Displays changes
+.
+.
+.
+To view next howto type 'q' and select next number
