@@ -1,0 +1,1793 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Periodic Table</title>
+		<link rel="stylesheet" href="./normalize.min.css" />
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+
+	<body>
+		
+
+
+
+
+		<div class="wrapper">
+			<input
+				class="category-toggle"
+				type="radio"
+				id="control"
+				name="categories"
+			/>
+			<input
+				class="category-cancel"
+				type="radio"
+				id="cancel"
+				name="categories"
+			/>
+			<input
+				class="category-toggle"
+				type="radio"
+				id="printable"
+				name="categories"
+			/>
+			<input
+				class="category-cancel"
+				type="radio"
+				id="cancel"
+				name="categories"
+			/>
+			<input
+				class="category-toggle"
+				type="radio"
+				id="lanthanoids"
+				name="categories"
+			/><!--
+			<input
+				class="category-cancel"
+				type="radio"
+				id="cancel"
+				name="categories"
+			/>
+			<input
+				class="category-toggle"
+				type="radio"
+				id="actinoids"
+				name="categories"
+			/>-->
+			<div class="periodic-table">
+				<div class="element control c1 r1">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">0</div>
+						<div class="label">
+							<div class="symbol">NUL</div>
+							<div class="name">Null</div>
+						</div>
+						<div class="hex">0x00</div>
+					</div>
+				</div>
+				<div class="element control c1 r2">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">1</div>
+						<div class="label">
+							<div class="symbol">SOH</div>
+							<div class="name">Start Of Heading</div>
+						</div>
+						<div class="hex">0x01</div>
+						
+					</div>
+				</div>
+				<div class="element control c1 r3">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">3</div>
+						<div class="label">
+							<div class="symbol">STX</div>
+							<div class="name">Start Of Text</div>
+						</div>
+						<div class="hex">0x02</div>
+						
+					</div>
+				</div>
+				<div class="element control c1 r4">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">3</div>
+						<div class="label">
+							<div class="symbol">ETX</div>
+							<div class="name">End Of Text</div>
+						</div>
+						<div class="hex">0x03</div>
+						
+					</div>
+				</div>
+				<div class="element control c1 r4">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">4</div>
+						<div class="label">
+							<div class="symbol">EOT</div>
+							<div class="name">End Of Transmission</div>
+						</div>
+						<div class="hex">0x04</div>
+						
+					</div>
+				</div>
+				<div class="element control c1 r5">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">5</div>
+						<div class="label">
+							<div class="symbol">ENQ</div>
+							<div class="name">Enquiry</div>
+						</div>
+						<div class="hex">0x05</div>
+						
+					</div>
+				</div>
+				<div class="element control c1 r6">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">6</div>
+						<div class="label">
+							<div class="symbol">ACK</div>
+							<div class="name">Acknowledge</div>
+						</div>
+						<div class="hex">0x06</div>
+						
+					</div>
+				</div>
+				<div class="element control c1 r7">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">7</div>
+						<div class="label">
+							<div class="symbol">BEL</div>
+							<div class="name">Bell</div>
+						</div>
+						<div class="hex">0x07</div>
+						
+					</div>
+				</div>
+				<div class="element control c1 r8">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">8</div>
+						<div class="label">
+							<div class="symbol">BS</div>
+							<div class="name">Backspace</div>
+						</div>
+						<div class="hex">0x08</div>
+						
+					</div>
+				</div>
+				<div class="element control c1 r9">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="model">
+							
+							
+						</div>
+						<div class="ascii-number">9</div>
+						<div class="label">
+							<div class="symbol">TAB</div>
+							<div class="name">Horizontal Tab</div>
+						</div>
+						<div class="hex">0x09</div>
+						
+					</div>
+				</div>
+				<div class="element control c1 r10">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">10</div>
+						<div class="label">
+							<div class="symbol">LF</div>
+							<div class="name">New Line</div>
+						</div>
+						<div class="hex">0x0A</div>
+						
+					</div>
+				</div>
+				<div class="element control c2 r1">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">11</div>
+						<div class="label">
+							<div class="symbol">VT</div>
+							<div class="name">Vertical Tab</div>
+						</div>
+						<div class="hex">0x0B</div>
+						
+					</div>
+				</div>
+				<div class="element control c2 r2">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">12</div>
+						<div class="label">
+							<div class="symbol">FF</div>
+							<div class="name">New Page</div>
+						</div>
+						<div class="hex">0x0C</div>
+						
+					</div>
+				</div>
+				<div class="element control c2 r3">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">13</div>
+						<div class="label">
+							<div class="symbol">CR</div>
+							<div class="name">Carriage Return</div>
+						</div>
+						<div class="hex">0x0D</div>
+						
+					</div>
+				</div>
+				<div class="element control c2 r4">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">14</div>
+						<div class="label">
+							<div class="symbol">SO</div>
+							<div class="name">Shift Out</div>
+						</div>
+						<div class="hex">0x0E</div>
+						
+					</div>
+				</div>
+				<div class="element control c2 r5">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">15</div>
+						<div class="label">
+							<div class="symbol">SI</div>
+							<div class="name">Shift In</div>
+						</div>
+						<div class="hex">0x0F</div>
+					</div>
+				</div>
+				<div class="element control c2 r6">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">16</div>
+						<div class="label">
+							<div class="symbol">DLE</div>
+							<div class="name">Data Link Escape</div>
+						</div>
+						<div class="hex">0x10</div>
+						
+					</div>
+				</div>
+				<div class="element control c2 r7">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="model">
+							
+							
+						</div>
+						<div class="ascii-number">17</div>
+						<div class="label">
+							<div class="symbol">DC1</div>
+							<div class="name">Device Control 1</div>
+						</div>
+						<div class="hex">0x11</div>
+						
+					</div>
+				</div>
+				<div class="element control c2 r8">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">18</div>
+						<div class="label">
+							<div class="symbol">DC2</div>
+							<div class="name">Device Control 2</div>
+						</div>
+						<div class="hex">0x12</div>
+						
+					</div>
+				</div>
+				<div class="element control c2 r9">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">19</div>
+						<div class="label">
+							<div class="symbol">DC3</div>
+							<div class="name">Device Control 3</div>
+						</div>
+						<div class="hex">0x13</div>
+						
+					</div>
+				</div>
+				<div class="element control c2 r10">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">20</div>
+						<div class="label">
+							<div class="symbol">DC4</div>
+							<div class="name">Device Control 4</div>
+						</div>
+						<div class="hex">0x14</div>
+					</div>
+				</div>
+				<div class="element control c3 r1">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">21</div>
+						<div class="label">
+							<div class="symbol">NAK</div>
+							<div class="name">Negative Acknowledge</div>
+						</div>
+						<div class="hex">0x15</div>
+					</div>
+				</div>
+				<div class="element control c3 r2">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">22</div>
+						<div class="label">
+							<div class="symbol">SYN</div>
+							<div class="name">Synchronous Idle</div>
+						</div>
+						<div class="hex">0x16</div>
+					</div>
+				</div>
+				<div class="element control c3 r3">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">23</div>
+						<div class="label">
+							<div class="symbol">ETB</div>
+							<div class="name">End Of Trans. Block</div>
+						</div>
+						<div class="hex">0x17</div>
+
+					</div>
+				</div>
+				<div class="element control c3 r4">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">24</div>
+						<div class="label">
+							<div class="symbol">CAN</div>
+							<div class="name">Cancel</div>
+						</div>
+						<div class="hex">0x18</div>
+					</div>
+				</div>
+				<div class="element control c3 r5">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">25</div>
+						<div class="label">
+							<div class="symbol">EM</div>
+							<div class="name">End Of Medium</div>
+						</div>
+						<div class="hex">0x19</div>
+					</div>
+				</div>
+				<div class="element control c3 r6">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">26</div>
+						<div class="label">
+							<div class="symbol">SUB</div>
+							<div class="name">Substitute</div>
+						</div>
+						<div class="hex">0x1A</div>
+					</div>
+				</div>
+				<div class="element control c3 r7">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">27</div>
+						<div class="label">
+							<div class="symbol">ESC</div>
+							<div class="name">Escape</div>
+						</div>
+						<div class="hex">0x1B</div>
+					</div>
+				</div>
+				<div class="element control c3 r8">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">28</div>
+						<div class="label">
+							<div class="symbol">FS</div>
+							<div class="name">File Separator</div>
+						</div>
+						<div class="hex">0x1C</div>
+					</div>
+				</div>
+				<div class="element control c3 r9">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">29</div>
+						<div class="label">
+							<div class="symbol">GS</div>
+							<div class="name">Group Separator</div>
+						</div>
+						<div class="hex">0x1D</div>
+					</div>
+				</div>
+				<div class="element control c3 r10">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">30</div>
+						<div class="label">
+							<div class="symbol">RS</div>
+							<div class="name">Record Separator</div>
+						</div>
+						<div class="hex">0x1E</div>
+					</div>
+				</div>
+				<div class="element control c4 r1">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">31</div>
+						<div class="label">
+							<div class="symbol">US</div>
+							<div class="name">Unit Separator</div>
+						</div>
+						<div class="hex">0x1F</div>
+					</div>
+				</div>
+				<div class="element printable c4 r2">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">32</div>
+						<div class="label">
+							<div class="symbol"> </div>
+							<div class="name">Space</div>
+						</div>
+						<div class="hex">0x20</div>
+					</div>
+				</div>
+				<div class="element printable c4 r3">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">33</div>
+						<div class="label">
+							<div class="symbol">!</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x21</div>
+					</div>
+				</div>
+				<div class="element printable c4 r4">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">34</div>
+						<div class="label">
+							<div class="symbol">"</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x22</div>
+					</div>
+				</div>
+				<div class="element printable c4 r5">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">35</div>
+						<div class="label">
+							<div class="symbol">#</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x23</div>
+					</div>
+				</div>
+				<div class="element printable c4 r6">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">36</div>
+						<div class="label">
+							<div class="symbol">$</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x24</div>
+						
+					</div>
+				</div>
+				<div class="element printable c4 r7">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">37</div>
+						<div class="label">
+							<div class="symbol">%</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x25</div>
+					</div>
+				</div>
+				<div class="element printable c4 r8">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">38</div>
+						<div class="label">
+							<div class="symbol">&</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x26</div>
+					</div>
+				</div>
+				<div class="element printable c4 r9">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">39</div>
+						<div class="label">
+							<div class="symbol">'</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x27</div>
+					</div>
+				</div>
+				<div class="element printable c4 r10">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">40</div>
+						<div class="label">
+							<div class="symbol">(</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x28</div>
+					</div>
+				</div>
+				<div class="element printable c5 r1">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">41</div>
+						<div class="label">
+							<div class="symbol">)</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x29</div>
+					</div>
+				</div>
+				<div class="element printable c5 r2">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">42</div>
+						<div class="label">
+							<div class="symbol">*</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x2A</div>
+					</div>
+				</div>
+				<div class="element printable c5 r3">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">43</div>
+						<div class="label">
+							<div class="symbol">+</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x2B</div>
+					</div>
+				</div>
+				<div class="element printable c5 r4">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">44</div>
+						<div class="label">
+							<div class="symbol">,</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x2C</div>
+					</div>
+				</div>
+				<div class="element printable c5 r5">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">45</div>
+						<div class="label">
+							<div class="symbol">-</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x2D</div>
+					</div>
+				</div>
+				<div class="element printable c5 r6">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">46</div>
+						<div class="label">
+							<div class="symbol">.</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x2E</div>
+					</div>
+				</div>
+				<div class="element printable c5 r7">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">47</div>
+						<div class="label">
+							<div class="symbol">/</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x2F</div>
+					</div>
+				</div>
+				<div class="element printable c5 r8">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">48</div>
+						<div class="label">
+							<div class="symbol">0</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x30</div>
+					</div>
+				</div>
+				<div class="element printable c5 r9">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">49</div>
+						<div class="label">
+							<div class="symbol">1</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x31</div>
+					</div>
+				</div>
+				<div class="element printable c5 r10">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">50</div>
+						<div class="label">
+							<div class="symbol">2</div>
+							<div class="name"></div>
+						</div>
+						<div class="hex">0x32</div>
+					</div>
+				</div>
+				<div class="element printable c6 r1">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">51</div>
+						<div class="label">
+							<div class="symbol">3</div>
+						</div>
+						<div class="hex">0x33</div>
+					</div>
+				</div>
+				<div class="element printable c6 r2">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">52</div>
+						<div class="label">
+							<div class="symbol">4</div>
+						</div>
+						<div class="hex">0x34</div>
+					</div>
+				</div>
+				<div class="element printable c6 r3">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">53</div>
+						<div class="label">
+							<div class="symbol">5</div>
+						</div>
+						<div class="hex">0x35</div>
+					</div>
+				</div>
+				
+				<div class="element printable c6 r4">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">54</div>
+						<div class="label">
+							<div class="symbol">6</div>
+						</div>
+						<div class="hex">0x36</div>
+					</div>
+				</div>
+				<div class="element printable c6 r5">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">55</div>
+						<div class="label">
+							<div class="symbol">7</div>
+						</div>
+						<div class="hex">0x37</div>
+					</div>
+				</div>
+				<div class="element printable c6 r6">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">56</div>
+						<div class="label">
+							<div class="symbol">8</div>
+						</div>
+						<div class="hex">0x38</div>
+					</div>
+				</div>
+				<div class="element printable c6 r7">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">57</div>
+						<div class="label">
+							<div class="symbol">9</div>
+						</div>
+						<div class="hex">0x39</div>
+					</div>
+				</div>
+				<div class="element printable c6 r8">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">58</div>
+						<div class="label">
+							<div class="symbol">:</div>
+						</div>
+						<div class="hex">0x3A</div>
+					</div>
+				</div>
+				<div class="element printable c6 r9">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">59</div>
+						<div class="label">
+							<div class="symbol">;</div>
+						</div>
+						<div class="hex">0x3B</div>
+					</div>
+				</div>
+				<div class="element printable c6 r10">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">60</div>
+						<div class="label">
+							<div class="symbol"><</div>
+						</div>
+						<div class="hex">0x3C</div>
+					</div>
+				</div>
+				<div class="element printable c7 r1">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">61</div>
+						<div class="label">
+							<div class="symbol">=</div>
+						</div>
+						<div class="hex">0x3D</div>
+					</div>
+				</div>
+				<div class="element printable c7 r2">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">62</div>
+						<div class="label">
+							<div class="symbol">></div>
+						</div>
+						<div class="hex">0x3E</div>
+					</div>
+				</div>
+				<div class="element printable c7 r3">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">63</div>
+						<div class="label">
+							<div class="symbol">?</div>
+						</div>
+						<div class="hex">0x3F</div>
+					</div>
+				</div>
+				<div class="element printable c7 r4">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">64</div>
+						<div class="label">
+							<div class="symbol">@</div>
+						</div>
+						<div class="hex">0x40</div>
+					</div>
+				</div>
+				<div class="element printable c7 r5">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">65</div>
+						<div class="label">
+							<div class="symbol">A</div>
+						</div>
+						<div class="hex">0x41</div>
+					</div>
+				</div>
+				<div class="element printable c7 r6">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">66</div>
+						<div class="label">
+							<div class="symbol">B</div>
+						</div>
+						<div class="hex">0x42</div>
+					</div>
+				</div>
+				<div class="element printable c7 r7">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">67</div>
+						<div class="label">
+							<div class="symbol">C</div>
+						</div>
+						<div class="hex">0x43</div>
+					</div>
+				</div>
+				<div class="element printable c7 r8">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">68</div>
+						<div class="label">
+							<div class="symbol">D</div>
+						</div>
+						<div class="hex">0x44</div>
+					</div>
+				</div>
+				<div class="element printable c7 r9">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">69</div>
+						<div class="label">
+							<div class="symbol">E</div>
+						</div>
+						<div class="hex">0x45</div>
+					</div>
+				</div>
+				<div class="element printable c7 r10">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">70</div>
+						<div class="label">
+							<div class="symbol">F</div>
+						</div>
+						<div class="hex">0x46</div>
+					</div>
+				</div>
+				<div class="element printable c8 r1">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">71</div>
+						<div class="label">
+							<div class="symbol">G</div>
+						</div>
+						<div class="hex">0x47</div>
+					</div>
+				</div>
+				<div class="element printable c8 r2">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">72</div>
+						<div class="label">
+							<div class="symbol">H</div>
+						</div>
+						<div class="hex">0x48</div>
+					</div>
+				</div>
+				<div class="element printable c8 r3">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">73</div>
+						<div class="label">
+							<div class="symbol">I</div>
+						</div>
+						<div class="hex">0x49</div>
+						
+					</div>
+				</div>
+				<div class="element printable c8 r4">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">74</div>
+						<div class="label">
+							<div class="symbol">J</div>
+						</div>
+						<div class="hex">0x4A</div>
+					</div>
+				</div>
+				<div class="element printable c8 r5">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">75</div>
+						<div class="label">
+							<div class="symbol">K</div>
+						</div>
+						<div class="hex">0x4B</div>
+					</div>
+				</div>
+				<div class="element printable c8 r6">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">76</div>
+						<div class="label">
+							<div class="symbol">L</div>
+						</div>
+						<div class="hex">0x4C</div>
+					</div>
+				</div>
+				<div class="element printable c8 r7">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">77</div>
+						<div class="label">
+							<div class="symbol">M</div>
+						</div>
+						<div class="hex">0x4D</div>
+					</div>
+				</div>
+				<div class="element printable c8 r8">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">78</div>
+						<div class="label">
+							<div class="symbol">N</div>
+						</div>
+						<div class="hex">0x4E</div>
+					</div>
+				</div>
+				<div class="element printable c8 r9">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">79</div>
+						<div class="label">
+							<div class="symbol">O</div>
+						</div>
+						<div class="hex">0x4F</div>
+						<ul class="atomic-weight">
+					</div>
+				</div>
+				<div class="element printable c8 r10">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">80</div>
+						<div class="label">
+							<div class="symbol">P</div>
+						</div>
+						<div class="hex">0x50</div>
+					</div>
+				</div>
+				<div class="element printable c9 r1">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">81</div>
+						<div class="label">
+							<div class="symbol">Q</div>
+						</div>
+						<div class="hex">0x51</div>
+					</div>
+				</div>
+				<div class="element printable c9 r2">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">82</div>
+						<div class="label">
+							<div class="symbol">R</div>
+						</div>
+						<div class="hex">0x52</div>
+					</div>
+				</div>
+				<div class="element printable c9 r3">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">83</div>
+						<div class="label">
+							<div class="symbol">S</div>
+						</div>
+						<div class="hex">0x53</div>
+					</div>
+				</div>
+				
+				<div class="element printable c9 r4">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">84</div>
+						<div class="label">
+							<div class="symbol">T</div>
+						</div>
+						<div class="hex">0x54</div>
+					</div>
+				</div>
+				<div class="element printable c9 r5">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">85</div>
+						<div class="label">
+							<div class="symbol">U</div>
+						</div>
+						<div class="hex">0x55</div>
+					</div>
+				</div>
+				<div class="element printable c9 r6">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">86</div>
+						<div class="label">
+							<div class="symbol">V</div>
+						</div>
+						<div class="hex">0x56</div>
+					</div>
+				</div>
+				<div class="element printable c9 r7">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">87</div>
+						<div class="label">
+							<div class="symbol">W</div>
+						</div>
+						<div class="hex">0x57</div>
+					</div>
+				</div>
+				<div class="element printable c9 r8">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">88</div>
+						<div class="label">
+							<div class="symbol">X</div>
+						</div>
+						<div class="hex">0x58</div>
+					</div>
+				</div>
+				<div class="element printable c9 r9">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">89</div>
+						<div class="label">
+							<div class="symbol">Y</div>
+						</div>
+						<div class="hex">0x59</div>
+					</div>
+				</div>
+				<div class="element printable c9 r10">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">90</div>
+						<div class="label">
+							<div class="symbol">Z</div>
+						</div>
+						<div class="hex">0x5A</div>
+					</div>
+				</div>
+				<div class="element printable c10 r1">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">91</div>
+						<div class="label">
+							<div class="symbol">[</div>
+						</div>
+						<div class="hex">0x5B</div>
+					</div>
+				</div>
+				<div class="element printable c10 r2">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">92</div>
+						<div class="label">
+							<div class="symbol">\</div>
+						</div>
+						<div class="hex">0x5C</div>
+					</div>
+				</div>
+				<div class="element printable c10 r3">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">93</div>
+						<div class="label">
+							<div class="symbol">]</div>
+						</div>
+						<div class="hex">0x5D</div>
+					</div>
+				</div>
+				<div class="element printable c10 r4">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">94</div>
+						<div class="label">
+							<div class="symbol">^</div>
+						</div>
+						<div class="hex">0x5E</div>
+					</div>
+				</div>
+				<div class="element printable c10 r5">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">95</div>
+						<div class="label">
+							<div class="symbol">_</div>
+						</div>
+						<div class="hex">0x5F</div>
+					</div>
+				</div>
+				<div class="element printable c10 r6">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">96</div>
+						<div class="label">
+							<div class="symbol">`</div>
+						</div>
+						<div class="hex">0x60</div>
+					</div>
+				</div>
+				<div class="element printable c10 r7">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">97</div>
+						<div class="label">
+							<div class="symbol">a</div>
+						</div>
+						<div class="hex">0x61</div>
+					</div>
+				</div>
+				<div class="element printable c10 r8">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">98</div>
+						<div class="label">
+							<div class="symbol">b</div>
+						</div>
+						<div class="hex">0x62</div>
+					</div>
+				</div>
+				<div class="element printable c10 r9">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">99</div>
+						<div class="label">
+							<div class="symbol">c</div>
+						</div>
+						<div class="hex">0x63</div>
+					</div>
+				</div>
+				<div class="element printable c10 r10">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">100</div>
+						<div class="label">
+							<div class="symbol">d</div>
+						</div>
+						<div class="hex">0x64</div>
+					</div>
+				</div>
+				<div class="element printable c11 r1">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">101</div>
+						<div class="label">
+							<div class="symbol">e</div>
+						</div>
+						<div class="hex">0x65</div>
+					</div>
+				</div>
+				<div class="element printable c11 r2">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">102</div>
+						<div class="label">
+							<div class="symbol">f</div>
+						</div>
+						<div class="hex">0x66</div>
+					</div>
+				</div>
+				<div class="element printable c11 r3">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">103</div>
+						<div class="label">
+							<div class="symbol">g</div>
+						</div>
+						<div class="hex">0x67</div> 
+					</div>
+				</div>
+				<div class="element printable c11 r4">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">104</div>
+						<div class="label">
+							<div class="symbol">h</div>
+						</div>
+						<div class="hex">0x68</div>
+					</div>
+				</div>
+				<div class="element printable c11 r5">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">105</div>
+						<div class="label">
+							<div class="symbol">i</div>
+						</div>
+						<div class="hex">0x69</div>
+					</div>
+				</div>
+				<div class="element printable c11 r6">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">106</div>
+						<div class="label">
+							<div class="symbol">j</div>
+						</div>
+						<div class="hex">0x6A</div>
+					</div>
+				</div>
+				<div class="element printable c11 r7">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">107</div>
+						<div class="label">
+							<div class="symbol">k</div>
+						</div>
+						<div class="hex">0x6B</div>
+					</div>
+				</div>
+				<div class="element printable c11 r8">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">108</div>
+						<div class="label">
+							<div class="symbol">l</div>
+						</div>
+						<div class="hex">0x6C</div>
+					</div>
+				</div>
+				<div class="element printable c11 r9">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">109</div>
+						<div class="label">
+							<div class="symbol">m</div>
+						</div>
+						<div class="hex">0x6D</div>
+					</div>
+				</div>
+				<div class="element printable c11 r10">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">110</div>
+						<div class="label">
+							<div class="symbol">n</div>
+						</div>
+						<div class="hex">0x6E</div>
+					</div>
+				</div>
+				<div class="element printable c12 r1">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">111</div>
+						<div class="label">
+							<div class="symbol">o</div>
+						</div>
+						<div class="hex">0x6F</div>
+					</div>
+				</div>
+				<div class="element printable c12 r2">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">112</div>
+						<div class="label">
+							<div class="symbol">p</div>
+						</div>
+						<div class="hex">0x70</div>
+					</div>
+				</div>
+				<div class="element printable c12 r3">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">113</div>
+						<div class="label">
+							<div class="symbol">q</div>
+						</div>
+						<div class="hex">0x71</div> 
+					</div>
+				</div>
+				<div class="element printable c12 r4">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">114</div>
+						<div class="label">
+							<div class="symbol">r</div>
+						</div>
+						<div class="hex">0x72</div>
+					</div>
+				</div>
+				<div class="element printable c12 r5">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">115</div>
+						<div class="label">
+							<div class="symbol">s</div>
+						</div>
+						<div class="hex">0x73</div>
+					</div>
+				</div>
+				<div class="element printable c12 r6">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						
+						<div class="ascii-number">116</div>
+						<div class="label">
+							<div class="symbol">t</div>
+						</div>
+						<div class="hex">0x74</div>
+					</div>
+				</div>
+				<div class="element printable c12 r7">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">117</div>
+						<div class="label">
+							<div class="symbol">u</div>
+						</div>
+						<div class="hex">0x75</div>
+					</div>
+				</div>
+				<div class="element printable c12 r8">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">118</div>
+						<div class="label">
+							<div class="symbol">v</div>
+						</div>
+						<div class="hex">0x76</div>
+					</div>
+				</div>
+				<div class="element printable c12 r9">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">119</div>
+						<div class="label">
+							<div class="symbol">w</div>
+						</div>
+						<div class="hex">0x77</div>
+					</div>
+				</div>
+				<div class="element printable c12 r10">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">120</div>
+						<div class="label">
+							<div class="symbol">x</div>
+						</div>
+						<div class="hex">0x78</div>
+					</div>
+				</div>
+
+				<div class="element printable c13 r1">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">121</div>
+						<div class="label">
+							<div class="symbol">y</div>
+						</div>
+						<div class="hex">0x79</div>
+					</div>
+				</div>
+				<div class="element printable c13 r2">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">122</div>
+						<div class="label">
+							<div class="symbol">z</div>
+						</div>
+						<div class="hex">0x7A</div>
+					</div>
+				</div>
+				<div class="element printable c13 r3">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">123</div>
+						<div class="label">
+							<div class="symbol">{</div>
+						</div>
+						<div class="hex">0x7B</div>
+					</div>
+				</div>
+				<div class="element printable c13 r4">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">124</div>
+						<div class="label">
+							<div class="symbol">|</div>
+						</div>
+						<div class="hex">0x7C</div>
+					</div>
+				</div>
+				<div class="element printable c13 r5">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">125</div>
+						<div class="label">
+							<div class="symbol">}</div>
+						</div>
+						<div class="hex">0x7D</div>
+					</div>
+				</div>
+				<div class="element printable c13 r6">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">126</div>
+						<div class="label">
+							<div class="symbol">~</div>
+						</div>
+						<div class="hex">0x7E</div>
+					</div>
+				</div>
+				<div class="element control c13 r7">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">127</div>
+						<div class="label">
+							<div class="symbol">DEL</div>
+							<div class="name">Delete</div>
+						</div>
+						<div class="hex">0x7F</div>
+					</div>
+				</div>
+				
+				<div class="element example c17 r1">
+					<input class="activate" type="radio" name="elements" />
+					<input class="deactivate" type="radio" name="elements" />
+					<div class="overlay"></div>
+					<div class="square">
+						<div class="ascii-number">DECIMAL CODE</div>
+						<div class="label">
+							<div class="symbol">SHORT NAME</div>
+							<div class="name">DESCRIPTION</div>
+						</div>
+						<div class="hex">HEXADECIMAL CODE</div>
+					</div>
+				</div>
+				
+
+				<!--<div class="gap c3 r8"></div>-->
+				<div class="key">
+					<div class="row">
+						<label class="control group" for="control"
+							>Control Characters (0-31, 127)</label
+						>
+						<label
+							class="printable group"
+							for="printable"
+							>Printable (32-126)</label
+						><!--
+						<label
+							class="lanthanoid group"
+							for="lanthanoids"
+							>Lanthanoids</label
+						>-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./js/gu2.js"></script>
+	</body>
+</html>
